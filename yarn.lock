@@ -6978,7 +6978,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@*", "react-dom@^18.0.0", "react-dom@^18.2.0":
+"react-dom@*", "react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.8":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -7006,7 +7006,15 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
   "version" "0.11.0"
 
-"react-router@^6.8.2":
+"react-router-dom@^6.8.2":
+  "integrity" "sha512-N/oAF1Shd7g4tWy+75IIufCGsHBqT74tnzHQhbiUTYILYF0Blk65cg+HPZqwC+6SqEyx033nKqU7by38v3lBZg=="
+  "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.8.2.tgz"
+  "version" "6.8.2"
+  dependencies:
+    "@remix-run/router" "1.3.3"
+    "react-router" "6.8.2"
+
+"react-router@6.8.2":
   "integrity" "sha512-lF7S0UmXI5Pd8bmHvMdPKI4u4S5McxmHnzJhrYi9ZQ6wE+DA8JN5BzVC5EEBuduWWDaiJ8u6YhVOCmThBli+rw=="
   "resolved" "https://registry.npmjs.org/react-router/-/react-router-6.8.2.tgz"
   "version" "6.8.2"

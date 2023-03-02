@@ -4,6 +4,7 @@ import red from './red.png';
 import gold from './gold.png';
 import blue from './blue.png';
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return ( 
@@ -27,11 +28,13 @@ const Home = () => {
                 whileHover={{width:'32%'}}
                 // transition={{duration:0.5}}
                 className=" w-1/4 h-[100vh] bg-[#a11818] flex justify-center z-10 items-center">
+                    <Link to='/red'>
                     <motion.img
                     initial={{x:'80px', rotate:40}}
                     whileHover={{x:0, rotate:40}}
                     transition={{type:'spring', stiffness:50}}
                     src={ red } className=' rotate-[40deg] ' alt="" />
+                    </Link>
                 </motion.div>
 
                 <motion.div 
