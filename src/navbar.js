@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
     return ( 
         <div className=" z-50 px-8 py-6 bg-transparent flex flex-row justify-between items-center fixed w-full top-0">
@@ -5,7 +6,9 @@ const Navbar = () => {
                 <p className="">About</p>
                 <p className="">View</p>
             </span>
-            <p className=" font-medium text-lg text-[#e2dede] font-Tilt">Shoes</p>
+            <Link to='/'>
+                <p className=" font-medium text-lg text-[#e2dede] font-Tilt">Shoes</p>
+            </Link>
             <span className=" flex flex-row items-center space-x-6 text-[#e2dede] font-Labrada text-sm font-normal">
                 <p className="">Contact</p>
                 <p className="">Sale</p>

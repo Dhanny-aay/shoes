@@ -16,11 +16,13 @@ const Home = () => {
                 whileHover={{width:'32%'}}
                 // transition={{duration:0.5}}
                 className=" w-1/4 h-[100vh] bg-[#727774] flex justify-center items-center">
+                    <Link to='/ash'>
                     <motion.img 
                     initial={{x:'80px', rotate:40}}
                     whileHover={{x:0, rotate:40}}
                     transition={{type:'spring', stiffness:50}}
                     src={ ash } className=' rotate-[40deg] z-[5]' alt="" />
+                    </Link>
                 </motion.div>
 
                 <motion.div 
@@ -42,11 +44,13 @@ const Home = () => {
                 whileHover={{width:'32%'}}
                 // transition={{duration:0.5}}
                 className=" w-1/4 h-[100vh] bg-[#c4b17f] flex justify-center z-20 items-center">
+                    <Link to='/gold'>
                     <motion.img
                     initial={{x:'80px', rotate:40}}
                     whileHover={{x:0, rotate:40}}
                     transition={{type:'spring', stiffness:50}}
                     src={ gold } className=' rotate-[40deg] ' alt="" />
+                    </Link>
                 </motion.div>
 
                 <motion.div 
@@ -54,11 +58,13 @@ const Home = () => {
                 whileHover={{width:'32%'}}
                 // transition={{duration:0.5}}
                 className=" w-1/4 h-[100vh] bg-[#223558] flex justify-center z-30 items-center">
+                    <Link to='/blue'>
                     <motion.img
                     initial={{x:'80px', rotate:40}}
                     whileHover={{x:0, rotate:40}}
                     transition={{type:'spring', stiffness:50}}
                     src={ blue } className=' rotate-[40deg]' alt="" />
+                    </Link>
                 </motion.div>
             </div>
         </div>
