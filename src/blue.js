@@ -38,11 +38,11 @@ const Blue = () => {
                 <div className=" w-[60%] relative">
                     <div className=" absolute left-[12%] bottom-12">
                         <div className=" flex flex-row">
-                            <span className=" p-5 border-2 rounded-md border-[#e2dede]">
-                                <img src={ blue } className=' w-[70px] h-[30px]' alt="" />
-                            </span>
                             <span className=" p-5 hover:border-2 rounded-md border-[#e2dede]">
                                 <img src={ red } className=' w-[70px] h-[30px]' alt="" />
+                            </span>
+                            <span className=" p-5 border-2 rounded-md border-[#e2dede]">
+                                <img src={ blue } className=' w-[70px] h-[30px]' alt="" />
                             </span>
                             <span className=" p-5 hover:border-2 rounded-md border-[#e2dede]">
                                 <img src={ gold } className=' w-[70px] h-[30px]' alt="" />
