@@ -4,6 +4,7 @@ import blue from './blue.png';
 import ash from './ash.png';
 import gold from './gold.png';
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Ash = () => {
     return ( 
@@ -38,15 +39,21 @@ const Ash = () => {
                 <div className=" w-[60%] relative">
                     <div className=" absolute left-[12%] bottom-12">
                         <div className=" flex flex-row">
-                            <span className=" p-5 hover:border-2 rounded-md border-[#e2dede]">
+                        <Link to='/red' className=" p-5 hover:border-2 rounded-md border-[#e2dede]">
+                            <span className="">
                                 <img src={ red } className=' w-[70px] h-[30px]' alt="" />
                             </span>
-                            <span className=" p-5 hover:border-2 rounded-md border-[#e2dede]">
+                            </Link>
+                            <Link to='/blue' className=" p-5 hover:border-2 rounded-md border-[#e2dede]">
+                            <span className=" ">
                                 <img src={ blue } className=' w-[70px] h-[30px]' alt="" />
                             </span>
-                            <span className=" p-5 hover:border-2 rounded-md border-[#e2dede]">
+                            </Link>
+                            <Link to='/gold' className=" p-5 hover:border-2 rounded-md border-[#e2dede]">
+                            <span className="">
                                 <img src={ gold } className=' w-[70px] h-[30px]' alt="" />
                             </span>
+                            </Link>
                             <span className=" p-5 border-2 rounded-md border-[#e2dede]">
                                 <img src={ ash } className=' w-[70px] h-[30px]' alt="" />
                             </span>
