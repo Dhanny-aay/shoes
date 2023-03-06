@@ -14,18 +14,18 @@ const Blue = () => {
             initial={{height:'100vh'}}
             animate={{height:'70vh'}}
             transition={{delay:0.5, duration:0.6}}
-            className=" w-full bg-[#223558] flex items-center px-[20%]">
+            className=" w-full bg-[#223558] flex relative items-center px-[20%]">
                 <div className=" flex justify-between items-center w-full">
                     <motion.img 
                     initial={{rotate:40}}
                     animate={{rotate:0}}
                     transition={{ delay:1.2, duration:0.4}}
-                    src={ blue } className=' w-[300px]  h-[150px] fixed left-[10%]' alt="" />
+                    src={ blue } className=' w-[170px] h-[85px] md:w-[300px] md:h-[150px] md:fixed left-[10%]' alt="" />
                     <motion.div 
                     initial={{opacity:0}}
                     animate={{opacity:1}}
                     transition={{delay:1.5, duration:0.5, type:'tween'}}
-                    className=" flex flex-col text-left ml-auto">
+                    className=" flex flex-col text-left md:ml-auto absolute bottom-10 left-10 md:static">
                         <p className=" font-bold font-Tilt text-2xl tracking-wider">Arch Blue</p>
                         <p className=" font-semibold font-Tilt text-2xl tracking-wider">SWA</p>
                         <span className=" flex flex-row text-xs font-light font-Tilt space-x-5">
@@ -35,9 +35,9 @@ const Blue = () => {
                     </motion.div>
                 </div>
             </motion.div>
-            <div className=" w-full flex flex-row ">
-                <div className=" w-[60%] relative">
-                    <div className=" absolute left-[12%] bottom-12">
+            <div className=" w-full flex md:flex-row flex-col p-5 md:p-0 ">
+                <div className=" md:w-[60%] w-full relative">
+                    <div className=" md:absolute left-[12%] bottom-12">
                         <div className=" flex flex-row">
                             <Link to='/red' className=" p-5 hover:border-2 rounded-md border-[#e2dede]">
                             <span>
@@ -60,7 +60,7 @@ const Blue = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[40%] flex flex-col pt-7">
+                <div className="md:w-[40%] w-full flex flex-col pt-7">
                     <div className=" space-y-6">
                         <p className=" text-[#223558] text-left tracking-wide font-Kanit font-semibold">$60</p>
                         <span className=" flex flex-row space-x-5">

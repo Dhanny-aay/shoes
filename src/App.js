@@ -4,6 +4,7 @@ import Red from "./red";
 import Blue from "./blue";
 import Gold from "./gold";
 import Ash from "./ash";
+import Overlay from "./overlay";
 
 function App() {
   return (
