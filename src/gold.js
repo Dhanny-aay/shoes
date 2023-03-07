@@ -72,10 +72,10 @@ const Gold = () => {
                             <button className=" bg-[#c4b17f] text-white px-[20px] py-[5px] font-Labrada text-base font-medium">View Collection</button>
                         </span>
                     </div>
-                    <div className="mt-8 w-full px-6 pt-5 pb-8 bg-[#e2dede]">
-                        <p className=" font-Labrada text-[#c4b17f] text-lg font-bold">About me</p>
-                        <p className="font-Labrada mt-5 text-[#c4b17f] text-base font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget nulla justo. Curabitur massa leo, bibendum sed dui in, dignissim gravida mi. Curabitur et maximus sapien, vel faucibus purus. Sed convallis condimentum volutpat. Aliquam rutrum elit eu egestas porttitor. Praesent scelerisque mollis elementum. Nam at nibh leo. Aliquam id blandit mauris, sit amet tincidunt ex. Nam et nunc ac nulla sollicitudin hendrerit. Maecenas nec pharetra.</p>
-                        <div className=" mt-6 flex flex-row justify-between font-Labrada text-[#c4b17f]">
+                    <div className="mt-8 w-full px-6 pt-5 pb-8 bg-[#c4b17f]">
+                        <p className=" font-Labrada text-[#e2ede] text-lg font-bold">About me</p>
+                        <p className="font-Labrada mt-5 text-[#e2ede] text-base font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget nulla justo. Curabitur massa leo, bibendum sed dui in, dignissim gravida mi. Curabitur et maximus sapien, vel faucibus purus. Sed convallis condimentum volutpat. Aliquam rutrum elit eu egestas porttitor. Praesent scelerisque mollis elementum. Nam at nibh leo. Aliquam id blandit mauris, sit amet tincidunt ex. Nam et nunc ac nulla sollicitudin hendrerit. Maecenas nec pharetra.</p>
+                        <div className=" mt-6 flex flex-row justify-between font-Labrada text-[#e2ede]">
                             <div className=" flex flex-col space-y-4">
                                 <span className=" ">
                                     <p className=" font-bold text-base">Color</p>
