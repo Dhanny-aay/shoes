@@ -73,9 +73,9 @@ const Ash = () => {
                         </span>
                     </div>
                     <div className="mt-8 w-full px-6 pt-5 pb-8 bg-[#727774]">
-                        <p className=" font-Labrada text-[#e2dede] text-lg font-bold">About me</p>
-                        <p className="font-Labrada mt-5 text-[#e2dede] text-base font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget nulla justo. Curabitur massa leo, bibendum sed dui in, dignissim gravida mi. Curabitur et maximus sapien, vel faucibus purus. Sed convallis condimentum volutpat. Aliquam rutrum elit eu egestas porttitor. Praesent scelerisque mollis elementum. Nam at nibh leo. Aliquam id blandit mauris, sit amet tincidunt ex. Nam et nunc ac nulla sollicitudin hendrerit. Maecenas nec pharetra.</p>
-                        <div className=" mt-6 flex flex-row justify-between font-Labrada text-[#e2dede]">
+                        <p className=" font-Labrada text-[#fff] text-lg font-bold">About me</p>
+                        <p className="font-Labrada mt-5 text-[#fff] text-base font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget nulla justo. Curabitur massa leo, bibendum sed dui in, dignissim gravida mi. Curabitur et maximus sapien, vel faucibus purus. Sed convallis condimentum volutpat. Aliquam rutrum elit eu egestas porttitor. Praesent scelerisque mollis elementum. Nam at nibh leo. Aliquam id blandit mauris, sit amet tincidunt ex. Nam et nunc ac nulla sollicitudin hendrerit. Maecenas nec pharetra.</p>
+                        <div className=" mt-6 flex flex-row justify-between font-Labrada text-[#fff]">
                             <div className=" flex flex-col space-y-4">
                                 <span className=" ">
                                     <p className=" font-bold text-base">Color</p>
