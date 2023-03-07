@@ -5,6 +5,7 @@ import gold from './gold.png';
 import blue from './blue.png';
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 const Home = () => {
     let divVariants ={};
@@ -49,7 +50,12 @@ const Home = () => {
         }
     }
     return ( 
-        <div className="">
+        <motion.div
+        initial={{x:100, opacity:0}}
+        animate={{x:0, opacity:1}}
+        exit={{x:-100, opacity:0}}
+        transition={{type:'spring', stiffness:80, duration:0.2 }}
+        className="">
             <Navbar/>
             <div className="w-full flex md:flex-row flex-col overflow-hidden">
                 <motion.div variants={divVariants} initial='initial' whileHover='hover' className=" md:w-1/4 w-[100%] md:h-[100vh] h-[25vh] bg-[#727774] flex justify-center items-center">
@@ -76,7 +82,7 @@ const Home = () => {
                     </Link>
                 </motion.div>
             </div>
-        </div>
+        </motion.div>
      );
 }
  

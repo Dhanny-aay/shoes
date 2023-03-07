@@ -8,8 +8,12 @@ import { Link } from "react-router-dom";
 
 const Blue = () => {
     return ( 
-        <div className=" text-[#e2dede] ">
-            <Navbar/>
+        <motion.div 
+            initial={{x:100, opacity:0}}
+            animate={{x:0, opacity:1}}
+            exit={{x:-100, opacity:0}}
+            transition={{type:'spring', stiffness:80, duration:0.2 }}
+            className=" text-[#e2dede] ">
             <motion.div 
             initial={{height:'100vh'}}
             animate={{height:'70vh'}}
@@ -104,7 +108,7 @@ const Blue = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
      );
 }
  
